@@ -1,0 +1,109 @@
+<div class="page" data-name="registertoko">
+     <div class="navbar">
+            <div class="navbar-inner ">
+            <div class="left">
+              <a href="#" class="panel-open" data-panel="panel-left">
+                <i class="f7-icons">bars</i>  
+              </a> 
+            </div>
+                <div class="title">Daftarkan Toko</div>  
+            </div>
+        </div>
+
+     <div class="page-content">
+       <form method="POST" class="form-ajax-submit">
+        <div class="list no-hairlines-md">
+          <ul>
+            <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Nama Toko</div>
+                <div class="item-input-wrap">
+                  <input id="tokoIn" name="namaToko" type="text" placeholder="Nama Toko" required validate>
+                  
+                </div>
+              </div>
+            </li>
+
+            <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Nomor Telepon Toko</div>
+                <div class="item-input-wrap">
+                  <input id="nomortokoIn" name="notelptoko" type="text" placeholder="Nomor Telepon Toko" required validate>
+                  
+                </div>
+              </div>
+            </li>
+
+            <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Fasilitas</div>
+                <div class="item-input-wrap">
+                  <input id="fasilitasIn" name="fasilitas" type="text" placeholder="Fasilitas" required validate>
+                  
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="item-title item-label">Tipe Laundry</div>
+              <label class="item-radio item-content">
+                <input type="radio" name="tipelaundry" id="tipekiloan" value="0" checked/>
+                <i class="icon icon-radio"></i>
+                <div class="item-inner">
+                  <div class="item-title">Kiloan</div>
+                </div>
+              </label>
+            </li>
+            
+            <li>
+              <label class="item-radio item-content">
+                <input type="radio" name="tipelaundry" id="tipesatuan" value="1"/>
+                <i class="icon icon-radio"></i>
+                <div class="item-inner">
+                  <div class="item-title"></i>Satuan</div>
+                </div>
+              </label>
+            </li>
+
+            <li>
+              <label class="item-radio item-content">
+                <input type="radio" name="tipelaundry" id="tipecampuran" value="2"/>
+                <i class="icon icon-radio"></i>
+                <div class="item-inner">
+                  <div class="item-title"></i>Satuan dan Kiloan</div>
+                </div>
+              </label>
+            </li>
+
+            <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Alamat</div>
+                <div class="item-input-wrap">
+                  <input id="alamatIn" name="alamat" type="text" placeholder="Alamat" required validate>
+                  
+                </div>
+              </div>
+            </li>
+              <br>
+              <h6>*pastikan anda berada di toko anda saat mendaftar</h6>
+              <div id="mapregis" style="width: 100%; height: 250px;">
+                
+              </div>
+              <br>
+            </li>
+
+            <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label"></div>
+                <div class="item-input-wrap">
+                  <input type="button" name="btnsubmit1" id="btnsubmit1" class="button button-fill button-big" value="DAFTARKAN TOKO"><br>
+                  <a href="/home/" class="button button-fill">Kembali</a>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+        </form>
+    </div>
+</div>
